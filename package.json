@@ -8,8 +8,6 @@
     "start": "http-server dist",
     "lint": "eslint --ignore-path .gitignore . --ext .ts,.html",
     "lint:fix": "npm run lint -- --fix",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
     "test": "jest"
   },
   "repository": {
@@ -25,7 +23,6 @@
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
-    "@testing-library/cypress": "^7.0.6",
     "@testing-library/dom": "^7.31.2",
     "@testing-library/jest-dom": "^5.13.0",
     "@types/jest": "^26.0.23",
@@ -33,7 +30,6 @@
     "@typescript-eslint/parser": "^4.26.1",
     "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^5.2.6",
-    "cypress": "^7.5.0",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-html": "^6.1.2",

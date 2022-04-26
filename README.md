@@ -1,6 +1,6 @@
-# TypeScript Bootstrap (base / project starter)
+# TypeScript Skeleton (base / project starter)
 
-This is a repository intended to serve as a starting point if you want to bootstrap a project in TypeScript.
+Repository intended to serve as a starting point if you want to bootstrap a project in TypeScript.
 
 ## Features
 
@@ -14,7 +14,6 @@ This is a repository intended to serve as a starting point if you want to bootst
   - [HTML plugin](https://github.com/BenoitZugmeyer/eslint-plugin-html)
   - And a few other ES2015+ related rules
 - [Jest](https://jestjs.io) with [DOM Testing Library](https://testing-library.com/docs/dom-testing-library/intro)
-- [Cypress](https://www.cypress.io/) with [Testing Library](https://testing-library.com/docs/cypress-testing-library/)
 - [GitHub Action workflows](https://github.com/features/actions) set up to run tests and linting on push
 
 ## Running the app
@@ -39,19 +38,6 @@ npm run start
 
 ```
 npm run test
-```
-
-### Cypress
-
-```
-# run in dev mode on port 8080
-npm run dev
-
-# open Cypress to run tests on dev mode
-npm run cy:open
-
-# open Cypress on CLI
-npm run cy:run
 ```
 
 ## Linting
