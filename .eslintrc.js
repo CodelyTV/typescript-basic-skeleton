@@ -17,5 +17,4 @@ module.exports = {
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
   },
-  ignorePatterns: ["webpack.*.js"],
 };

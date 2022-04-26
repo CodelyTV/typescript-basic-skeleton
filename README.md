@@ -5,7 +5,6 @@ Repository intended to serve as a starting point if you want to bootstrap a proj
 ## Features
 
 - [TypeScript](https://www.typescriptlang.org/) (v4)
-- [Webpack](https://webpack.js.org/) (v5)
 - [Babel](https://babeljs.io/) with [preset-env](https://babeljs.io/docs/en/babel-preset-env)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/) with:

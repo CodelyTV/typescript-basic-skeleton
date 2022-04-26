@@ -3,7 +3,7 @@ import "@testing-library/jest-dom/extend-expect";
 
 import { getByText } from "@testing-library/dom";
 
-import { printUsers } from "../src/index";
+import { printUsers } from "../src";
 
 test("examples of some things", async () => {
   const container = await printUsers();
