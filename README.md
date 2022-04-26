@@ -1,4 +1,4 @@
-# 🔷🌱 TypeScript Skeleton
+# 🔷🌱 TypeScript Basic Skeleton
 
 Template intended to serve as a starting point if you want to bootstrap a project in TypeScript.
 
