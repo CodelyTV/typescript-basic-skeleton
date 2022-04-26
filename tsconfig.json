@@ -10,9 +10,5 @@
     "experimentalDecorators": true
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"],
-  "awesomeTypescriptLoaderOptions": {
-    "useBabel": true,
-    "babelCore": "@babel/core"
-  }
+  "exclude": ["node_modules"]
 }
