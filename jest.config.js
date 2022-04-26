@@ -1,10 +1,6 @@
 module.exports = {
-  testMatch: ["**/tests/*.(spec|test).ts"],
+  testMatch: ["**/tests/*.test.ts"],
   transform: {
-    "\\.[jt]sx?$": "ts-jest",
+    "\\.ts$": "ts-jest",
   },
-  moduleNameMapper: {
-    "\\.(css|less)$": "identity-obj-proxy",
-  },
-  testEnvironment: "jsdom",
 };
