@@ -15,12 +15,14 @@ The purpose of this repository is to leave it with the bare minimum dependencies
 - [GitHub Action workflows](https://github.com/features/actions) set up to run tests and linting on push
 - [SWC](https://swc.rs/): Execute your tests in less than 200ms
 
-## Running the app
+## Working with this project
 
 - Install the dependencies: `npm install`
 - Execute the tests: `npm run test`
 - Check linter errors: `npm run lint`
 - Fix linter errors: `npm run lint:fix`
+
+There is no specific command to start the app, we leave that up to you. If you wish to create a specific type of app (web, API…), we recommend checking the templates below.
 
 ## Related skeleton templates
 
