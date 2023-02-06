@@ -1,9 +1,9 @@
 export class Codelyber {
-  private GREETING = "Hi";
+	private readonly GREETING = "Hi";
 
-  constructor(private readonly name: string) {}
+	constructor(private readonly name: string) {}
 
-  greet(): string {
-    return `${this.GREETING} ${this.name} from Codely TypeScript Basic Skeleton!`;
-  }
+	greet(): string {
+		return `${this.GREETING} ${this.name} from Codely TypeScript Basic Skeleton!`;
+	}
 }
