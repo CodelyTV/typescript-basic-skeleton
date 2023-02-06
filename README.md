@@ -9,9 +9,8 @@ The purpose of this repository is to leave it with the bare minimum dependencies
 - [TypeScript](https://www.typescriptlang.org/) (v4)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/) with:
-  - [Simple Import Sort](https://github.com/lydell/eslint-plugin-simple-import-sort/)
-  - [Import plugin](https://github.com/benmosher/eslint-plugin-import/)
-  - And a few other ES2015+ related rules
+  - [Codely's config](https://github.com/lydell/eslint-plugin-simple-import-sort/) (includes ESLint's recommended rules, Prettier, Import plugin and more)
+  - [Jest plugin](https://www.npmjs.com/package/eslint-plugin-jest)
 - [Jest](https://jestjs.io) with [DOM Testing Library](https://testing-library.com/docs/dom-testing-library/intro)
 - [GitHub Action workflows](https://github.com/features/actions) set up to run tests and linting on push
 - [SWC](https://swc.rs/): Execute your tests in less than 200ms
