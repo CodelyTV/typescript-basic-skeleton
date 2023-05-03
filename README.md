@@ -11,7 +11,7 @@ The purpose of this repository is to leave it with the bare minimum dependencies
 - [ESLint](https://eslint.org/) with:
   - [Codely's config](https://github.com/lydell/eslint-plugin-simple-import-sort/) (includes ESLint's recommended rules, Prettier, Import plugin and more)
   - [Jest plugin](https://www.npmjs.com/package/eslint-plugin-jest)
-- [Jest](https://jestjs.io) with [DOM Testing Library](https://testing-library.com/docs/dom-testing-library/intro)
+- [Jest](https://jestjs.io)
 - [GitHub Action workflows](https://github.com/features/actions) set up to run tests and linting on push
 - [SWC](https://swc.rs/): Execute your tests in less than 200ms
 
