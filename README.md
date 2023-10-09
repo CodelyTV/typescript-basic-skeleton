@@ -6,7 +6,7 @@ The purpose of this repository is to leave it with the bare minimum dependencies
 
 ## Features
 
-- [TypeScript](https://www.typescriptlang.org/) (v4)
+- [TypeScript](https://www.typescriptlang.org/) (v5)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/) with:
   - [Codely's config](https://github.com/lydell/eslint-plugin-simple-import-sort/) (includes ESLint's recommended rules, Prettier, Import plugin and more)
