@@ -8,8 +8,14 @@ jobs:
     name: 🚀 Lint and test
     timeout-minutes: 5
     steps:
+
       - name: 👍 Checkout
         uses: actions/checkout@v2
+
+      - name: ❇️ Setup Node.js
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
       - name: 📦 Cache node modules
         uses: actions/cache@v2
