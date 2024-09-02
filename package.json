@@ -18,7 +18,7 @@
 	},
 	"homepage": "https://github.com/CodelyTV/typescript-basic-skeleton#readme",
 	"devDependencies": {
-		"@swc/core": "^1.7.22",
+		"@swc/core": "1.7.19",
 		"@swc/jest": "^0.2.36",
 		"@types/jest": "^29.5.12",
 		"eslint": "^9.9.1",
